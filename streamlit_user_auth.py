@@ -18,7 +18,7 @@ names = ["Peter Parker", "Rebecca Miller"]
 usernames = ["pparker", "rmiller"]
 
 # load hashed passwords
-file_path = "./hashed_pw.pkl"
+file_path = Path(__file__).with_name('hashed_pw.pkl')
 with file_path.open("rb") as file:
     hashed_passwords = pickle.load(file)
 
