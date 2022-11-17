@@ -14,8 +14,8 @@ st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout
 
 
 # --- USER AUTHENTICATION ---
-names = ["Peter Parker", "Rebecca Miller"]
-usernames = ["pparker", "rmiller"]
+names = ["admin"]
+usernames = ["admin"]
 
 # load hashed passwords
 file_path = Path(__file__).with_name('hashed_password.pkl')
